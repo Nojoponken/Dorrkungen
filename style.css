@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Bebas;
+  src: url(BebasNeue-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -57,6 +62,7 @@ li {
 }
 
 li a {
+  font-family: Bebas;
   padding-left: 2vw;
   padding-right: 2vw;
   text-decoration: none;
