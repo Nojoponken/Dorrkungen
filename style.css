@@ -3,6 +3,11 @@
   src: url(BebasNeue-Regular.ttf);
 }
 
+@font-face {
+  font-family: Arvo;
+  src: url(Arvo/Arvo-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,35 +50,25 @@ footer {
   height: 96vh;
   position: sticky;
   top: 2vh;
-}
-
-ul {
-  margin-right: auto;
-  margin-left: auto;
   padding: 2vw;
-  border-radius: 2vw;
-}
-li {
-  text-align: center;
-  list-style: none;
-  margin-top: 1vw;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-li a {
+button {
   font-family: Bebas;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  text-decoration: none;
+  font-size: 5vw;
+  border: none;
+  outline: none;
+  margin: 1vw;
+  border-radius: 5vw;
   color: white;
   background-color: red;
-  border-radius: 2.5vw;
-  font-size: 3.5vw;
 }
 
-li a:hover {
-  animation: hover 200ms ease-out forwards;
+
+
+.buttonGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 @keyframes hover {
