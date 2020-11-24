@@ -27,7 +27,7 @@ footer {
 
 .indexSectionGrid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 35vw 1fr;
 }
 
 .previewGrid {
@@ -78,22 +78,26 @@ button:not(:hover) {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+.adAside {
+  width: 100%;
+  border-radius: 1vw;
+}
+
 .not_logo {
   height: 30vw;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 2vw;
+  border-radius: 1vw;
 }
 
 .prevImg {
+  margin: 0;
   height: 10vw;
-  padding: 1vw;
-  border-radius: 2vw;
+  border-radius: 1vw;
 }
-
-.asideAd {
-  width: 100%;
-  border-radius: 2vw;
+.prevImg:hover {
+  height: 11vw;
+  transition: 0.2s;
 }
 
 .red {
@@ -106,6 +110,14 @@ button:not(:hover) {
 
 .blue {
   background-color: rgb(0, 157, 255);
+}
+
+p {
+  font-family: Arvo;
+  max-width: 80%;
+}
+.prevTitle {
+  font-weight: bold;
 }
 
 @keyframes hover {
