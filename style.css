@@ -64,7 +64,13 @@ button {
 }
 
 button:hover {
-  animation: hover 200ms forwards;
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+button:not(:hover) {
+  transition: 0.2s;
 }
 
 .buttonGrid {
