@@ -127,6 +127,27 @@ p {
   font-family: Arvo;
   max-width: 80%;
 }
+
+h1 {
+  font-family: Bebas;
+}
+
 .prevTitle {
   font-weight: bold;
+}
+
+.prodView {
+  padding: 10vw;
+  height: 50vw;
+  border-radius: 11vw;
+}
+
+.prodGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.prodText {
+  margin-top: auto;
+  margin-bottom: auto;
 }
