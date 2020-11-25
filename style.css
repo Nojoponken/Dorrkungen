@@ -91,12 +91,23 @@ button:not(:hover) {
 }
 
 .prevImg {
-  margin: 0;
   height: 10vw;
   border-radius: 1vw;
 }
-.prevImg:hover {
-  height: 11vw;
+
+.prodPrev {
+  padding-left: 2.5vw;
+  padding-top: 1vw;
+  border-radius: 1vw;
+}
+
+.prodPrev:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+.prodPrev:not(:hover) {
   transition: 0.2s;
 }
 
@@ -118,13 +129,4 @@ p {
 }
 .prevTitle {
   font-weight: bold;
-}
-
-@keyframes hover {
-  from {
-  }
-  to {
-    background-color: white;
-    color: black;
-  }
 }
