@@ -156,3 +156,15 @@ h1 {
   display: grid;
   grid-template-columns: 10fr 65fr 25fr;
 }
+
+.search {
+  text-align: center;
+  background-color: gray;
+  border-color: black;
+  outline: black;
+  border-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  border-radius: 2vw;
+}
