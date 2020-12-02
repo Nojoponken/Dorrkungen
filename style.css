@@ -154,5 +154,5 @@ h1 {
 
 #info {
   display: grid;
-  grid-template-columns: 1fr 4fr 5fr;
+  grid-template-columns: 10fr 65fr 25fr;
 }
