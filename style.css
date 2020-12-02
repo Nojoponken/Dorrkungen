@@ -151,3 +151,8 @@ h1 {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr;
+}
