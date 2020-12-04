@@ -55,6 +55,7 @@ footer {
 
 button {
 	font-family: Bebas;
+	width: 100%;
 	font-size: 5vw;
 	border: none;
 	outline: none;
@@ -74,8 +75,8 @@ button:not(:hover) {
 }
 
 .buttonGrid {
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .adAside {
@@ -153,8 +154,13 @@ h1 {
 }
 
 #info {
-	display: grid;
-	grid-template-columns: 10fr 65fr 25fr;
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+.aboutImg {
+	width: 60vw;
+	max-height: 60vh;
 }
 
 .search {
